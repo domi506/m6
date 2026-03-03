@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* siempre formatiar se aplica a toda la página  */
+
+
+body {
+    background-color: skyblue;
+}
+
+header {
+    background-color: pink;
+}
+
+main {
+    background-color: #d1d1d1;
+}
+
+h3 {
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    padding: 48px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 70px;
+}
+
+p {
+    margin-bottom: 30px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.justDer {
+    text-align: right;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+
+.cita {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 100;
+}
+
+
+/* 
+Mobile hasta los 576px
+Tablet hasta los 992px
+Escritorio desde los 993px
+
+*/
+/* tamaño tablet */
+@media (max-width: 992px) {
+    h3 {
+        color: blue;
+        font-size: 3.125rem;
+
+    }
+
+    img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    h3 {
+        color: green;
+    }
+}

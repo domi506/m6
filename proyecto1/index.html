@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!--define la norma de caracteres que vamos a utilizar No se Cambia -->
+    <meta charset="UTF-8" />
+    <!-- Define el tamaño de la pantalla no se cambia  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Define el nombre de la pagina (el que aparece en la pestaña el navegador del cual se abre nuestra página) -->
+    <title>Mi primera Web</title>
+  </head>
+  <!-- en el va estar todo el contenido -->
+  <body>
+    <a href="imagen.html" target="_blank">Ver Imagen</a>
+    <p>Hoy es: <span id="fecha-actual"></span></p>
+    <!-- este h1 es un titulo principal -->
+    <h1>Etiquetas de texto</h1>
+
+    <!-- Etiquetas de texto segundarías -->
+    <b>Bold (Negrita)</b>
+    <i>Italic</i>
+    <u>Subrayar</u>
+    <s>Tachar</s>
+    <img src="https://picsum.photos/1/200/300" alt="" />
+
+    <!-- ===== Código de fecha ==== -->
+    <script>
+      // JS: Obtener fecha, formatear e insertar
+      const fecha = new Date();
+      document.getElementById("fecha-actual").innerText =
+        fecha.toLocaleDateString();
+    </script>
+  </body>
+</html>

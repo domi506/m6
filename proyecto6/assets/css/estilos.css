@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: auto;
+}
+
+article {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    background-color: blue;
+
+
+
+}
+
+div {
+    flex: 1;
+    background-color: red;
+}
+
+.contTexto {
+    flex: 2;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media (max-width: 992px) {
+    article {
+        background-color: green;
+        flex-direction: column;
+
+    }
+
+    div {
+        width: 100%;
+    }
+
+}

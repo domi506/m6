@@ -1,0 +1,74 @@
+/*
+
+;
+
+
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #ff7f50;
+}
+
+header {
+    background-color: #0000ff;
+    color: white;
+    padding: 1.25rem;
+}
+
+main {
+    background-color: #9acd32;
+}
+
+footer {
+    background-color: #008000;
+    color: yellow;
+    padding: 50PX;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+h2 {
+    background-color: aqua;
+    padding: 3.125rem;
+    padding-left: 12.5rem;
+    color: coral;
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+
+p {
+    background-color: blueviolet;
+    margin-top: 3.125rem;
+    margin-bottom: 20px;
+    .
+}
+
+.tituloFoto {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.elemento-centrado {
+    width: 50%;
+    margin-left: 25%;
+}
+
+a {
+    background-color: red;
+    padding: 16px 48px;
+    color: white;
+    border-radius: 2.5rem;
+    margin-left: 35%;
+    text-decoration: none;
+
+}
+
+/*  */
