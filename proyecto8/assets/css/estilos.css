@@ -57,3 +57,76 @@ header {
 .sec_metricas .texto {
     flex: 1;
 }
+
+.sec_imagenes .contImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.sec_imagenes .contImg div {
+    width: 32%;
+    height: 150px;
+    border-radius: 16px;
+    background-color: peru;
+
+}
+
+.sec_footer {
+    padding: 64px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.sec_footer h4 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+
+
+.lineaIzq {
+    border-left: 5px solid red;
+}
+
+
+/* Pantalla tablet */
+
+@media (max-width:992px) {
+
+    body {
+        background-color: red;
+    }
+
+    .sec_metricas {
+        width: 100%;
+
+
+
+    }
+
+
+
+}
+
+/* Pantalla Mobile */
+
+@media (max-width:576px) {
+    body {
+        background-color: blue;
+    }
+
+    .sec_visitas .contCards {
+        flex-direction: column;
+    }
+
+    .sec_visitas .contCards .card {
+        flex-direction: 80%;
+    }
+}
